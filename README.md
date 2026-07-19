@@ -186,7 +186,7 @@ Open browser: `http://localhost:9090`
 | Level 1 (PPT) | 20-21 May 2026 | ✅ Completed |
 | Level 2 (Live Demo) | 5-6 June 2026 | ✅ Completed |
 | Level 3 (Improvements) | 25-28 June 2026 | ✅ Completed |
-| Level 4 (Final Report) | 6-7 July 2026 | ⏳ Pending |
+| Level 4 (Final Report) | 21 July 2026 | ⏳ Pending |
 
 ## 🙏 Acknowledgments
 
