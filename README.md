@@ -102,13 +102,13 @@ Demo User	avinashtiwari@gmail.com	avinash123
 
 | Page | Screenshot |
 |------|------------|
-| Home Page | ![Home](screenshots/home.png) |
-| Shop Page | ![Shop](screenshots/shop.png) |
-| Cart Page | ![Cart](screenshots/cart.png) |
-| My Orders | ![My Orders](screenshots/my-orders.png) |
-| Admin Dashboard | ![Admin Dashboard](screenshots/admin-dashboard.png) |
-| Admin Products | ![Admin Products](screenshots/admin-products.png) |
-| Admin Orders | ![Admin Orders](screenshots/admin-orders.png) |
+| Home Page | ![Home](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/home.png) |
+| Shop Page | ![Shop](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/shop.png) |
+| Cart Page | ![Cart](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/cart.png) |
+| My Orders | ![My Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/my-orders.png) |
+| Admin Dashboard | ![Admin Dashboard](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-dashboard.png) |
+| Admin Products | ![Admin Products](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-products.png) |
+| Admin Orders | ![Admin Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-orders.png) |
 
 🎯 Features Demonstrated
 👤 User Features
