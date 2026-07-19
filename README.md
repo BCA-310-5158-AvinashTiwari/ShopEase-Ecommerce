@@ -125,6 +125,13 @@ Open browser: `http://localhost:9090`
 | Admin Dashboard | ![Admin Dashboard](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-dashboard.png) |
 | Admin Products | ![Admin Products](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-products.png) |
 | Admin Orders | ![Admin Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-orders.png) |
+| Payments | ![Payment Flow](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/payment1.png) |
+| Payments | ![Payment Flow](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/payment2.png) |
+| Payments | ![Payment Flow](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/payment3.png) |
+| Payments | ![Payment Flow](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/payment4.png) |
+| Payments | ![Payment Flow](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/payment5.png) |
+| Payments | ![Payment Flow](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/payment6.png) |
+| Razorpay | ![Razorpay Dashboard](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/razorpay-dashboard.png) |
 
 ## 🎯 Features Demonstrated
 
