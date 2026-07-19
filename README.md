@@ -29,14 +29,15 @@
 - Books & Education (2 products)
 - Sports & Fitness (2 products)
 
-## 🛠️ Technology Stack
-
+🛠️ Technology Stack
 | Layer | Technology |
 |-------|------------|
 | Backend | Java 21, Spring Boot 3.2.5 |
 | Security | Spring Security 6, BCrypt |
-| Database | MySQL 8.0 |
+| Database | MySQL 8.0 / PostgreSQL |
 | Frontend | Thymeleaf, Bootstrap 5, jQuery |
+| Payment | Razorpay |
+| Map | OpenStreetMap (Leaflet.js) |
 | Build Tool | Maven |
 
 ## 📁 Project Structure
@@ -110,20 +111,15 @@ Page	             Description
 🎯 Features Demonstrated
 👤 User Features
 ✅ Browse products by 6 categories
-
 ✅ Search products by name/brand
-
 ✅ Filter by category and price
-
 ✅ Add/remove products from cart
-
 ✅ Update cart quantities
-
 ✅ User registration & login
-
 ✅ Place orders with address
-
 ✅ View order history
+✅ Online Payment (Razorpay)
+✅ Location (Landmark + Delivery Instructions + OpenStreetMap)
 
 👨‍💼 Admin Features
 ✅ Dashboard with statistics (revenue, orders, users)
@@ -167,8 +163,8 @@ ID: 310-5158 | Batch: B2 | Roll No: C13
 📅 Project Timeline
 Level	Date	Status
 Level 1 (PPT)	20-21 May 2026	✅ Completed
-Level 2 (Live Demo)	5-6 June 2026	🔄 Ready
-Level 3 (Improvements)	25-28 June 2026	⏳ Pending
+Level 2 (Live Demo)	5-6 June 2026	✅ Completed
+Level 3 (Improvements)	25-28 June 2026	✅ Completed
 Level 4 (Final Report)	6-7 July 2026	⏳ Pending
 🙏 Acknowledgments
 Spring Boot Documentation
