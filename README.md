@@ -102,13 +102,13 @@ Demo User	avinashtiwari@gmail.com	avinash123
 
 | Page | Screenshot |
 |------|------------|
-| Home Page | ![Home](screenshots/home.png) |
-| Shop Page | ![Shop](screenshots/shop.png) |
-| Cart Page | ![Cart](screenshots/cart.png) |
-| My Orders | ![My Orders](screenshots/my-orders.png) |
-| Admin Dashboard | ![Admin Dashboard](screenshots/admin-dashboard.png) |
-| Admin Products | ![Admin Products](screenshots/admin-products.png) |
-| Admin Orders | ![Admin Orders](screenshots/admin-orders.png) |
+| Home Page | ![Home](src/main/resources/static/screenshots/home.png) |
+| Shop Page | ![Shop](src/main/resources/static/screenshots/shop.png) |
+| Cart Page | ![Cart](src/main/resources/static/screenshots/cart.png) |
+| My Orders | ![My Orders](src/main/resources/static/screenshots/my-orders.png) |
+| Admin Dashboard | ![Admin Dashboard](src/main/resources/static/screenshots/admin-dashboard.png) |
+| Admin Products | ![Admin Products](src/main/resources/static/screenshots/admin-products.png) |
+| Admin Orders | ![Admin Orders](src/main/resources/static/screenshots/admin-orders.png) |
 
 🎯 Features Demonstrated
 👤 User Features
