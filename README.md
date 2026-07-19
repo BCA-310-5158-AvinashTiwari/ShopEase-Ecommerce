@@ -29,7 +29,8 @@
 - Books & Education (2 products)
 - Sports & Fitness (2 products)
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
+
 | Layer | Technology |
 |-------|------------|
 | Backend | Java 21, Spring Boot 3.2.5 |
@@ -42,19 +43,20 @@
 
 ## 📁 Project Structure
 
+```
 ShopEase/
 ├── src/main/java/com/shopease/
-│ ├── config/ # Security & Data Initializer
-│ ├── controller/ # MVC Controllers (6 files)
-│ ├── entity/ # JPA Entities (4 files)
-│ ├── repository/ # Spring Data JPA (3 files)
-│ └── service/ # Business Logic (4 files)
+│   ├── config/          # Security & Data Initializer
+│   ├── controller/      # MVC Controllers (6 files)
+│   ├── entity/          # JPA Entities (4 files)
+│   ├── repository/      # Spring Data JPA (3 files)
+│   └── service/         # Business Logic (4 files)
 ├── src/main/resources/
-│ ├── templates/ # Thymeleaf HTML (15+ files)
-│ ├── static/ # CSS, JS, Images
-│ └── application.properties
+│   ├── templates/       # Thymeleaf HTML (15+ files)
+│   ├── static/          # CSS, JS, Images
+│   └── application.properties
 └── pom.xml
-
+```
 
 ## 🚀 Installation & Setup Guide
 
@@ -72,123 +74,130 @@ ShopEase/
 ```bash
 git clone https://github.com/AvinashBittu/ShopEase-Ecommerce.git
 cd ShopEase-Ecommerce
+```
 
-2️⃣ Configure MySQL Database
+#### 2️⃣ Configure MySQL Database
+
+```sql
 CREATE DATABASE shopease_db;
+```
 
-3️⃣ Update application.properties
+#### 3️⃣ Update application.properties
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/shopease_db
 spring.datasource.username=root
 spring.datasource.password=YOUR_PASSWORD
+```
 
-4️⃣ Run the Application
-Option 1: STS/Eclipse
+#### 4️⃣ Run the Application
 
-Import as Existing Maven Project
+**Option 1: STS/Eclipse**
 
-Right-click → Run As → Spring Boot App
-Option 2: Command Line
+- Import as Existing Maven Project
+- Right-click → Run As → Spring Boot App
+
+**Option 2: Command Line**
+
+```bash
 mvn spring-boot:run
+```
 
-5️⃣ Access the Application
-Open browser: http://localhost:9090
+#### 5️⃣ Access the Application
 
-🔑 Login Credentials
-Role	Email	Password
-Admin	admin@shopease.com	admin123
-Demo User	avinashtiwari@gmail.com	avinash123
+Open browser: `http://localhost:9090`
+
+### 🔑 Login Credentials
+
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@shopease.com | admin123 |
+| Demo User | avinashtiwari@gmail.com | avinash123 |
 
 ## 📱 Application Screenshots
 
-### Home Page
-![Home](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/home.png)
+| Page | Screenshot |
+|------|------------|
+| Home Page | ![Home](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/home.png) |
+| Shop Page | ![Shop](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/shop.png) |
+| Cart Page | ![Cart](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/cart.png) |
+| My Orders | ![My Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/my-orders.png) |
+| Admin Dashboard | ![Admin Dashboard](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-dashboard.png) |
+| Admin Products | ![Admin Products](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-products.png) |
+| Admin Orders | ![Admin Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-orders.png) |
 
-### Shop Page
-![Shop](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/shop.png)
+## 🎯 Features Demonstrated
 
-### Cart Page
-![Cart](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/cart.png)
+### 👤 User Features
 
-### My Orders
-![My Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/my-orders.png)
+- ✅ Browse products by 6 categories
+- ✅ Search products by name/brand
+- ✅ Filter by category and price
+- ✅ Add/remove products from cart
+- ✅ Update cart quantities
+- ✅ User registration & login
+- ✅ Place orders with address
+- ✅ View order history
+- ✅ Online Payment (Razorpay)
+- ✅ Location (Landmark + Delivery Instructions + OpenStreetMap)
 
-### Admin Dashboard
-![Admin Dashboard](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-dashboard.png)
+### 👨‍💼 Admin Features
 
-### Admin Products
-![Admin Products](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-products.png)
+- ✅ Dashboard with statistics (revenue, orders, users)
+- ✅ Add new products
+- ✅ Edit existing products
+- ✅ Delete products
+- ✅ View all orders
+- ✅ Update order status (Pending → Shipped → Delivered)
 
-### Admin Orders
-![Admin Orders](https://raw.githubusercontent.com/BCA-310-5158-AvinashTiwari/ShopEase-Ecommerce/main/screenshots/admin-orders.png)
+## 🔒 Security Implementation
 
-🎯 Features Demonstrated
-👤 User Features
-✅ Browse products by 6 categories
-✅ Search products by name/brand
-✅ Filter by category and price
-✅ Add/remove products from cart
-✅ Update cart quantities
-✅ User registration & login
-✅ Place orders with address
-✅ View order history
-✅ Online Payment (Razorpay)
-✅ Location (Landmark + Delivery Instructions + OpenStreetMap)
+- **Password Encryption**: BCrypt hashing (not stored as plain text)
+- **Role-Based Access**: USER and ADMIN roles
+- **Protected Routes**: Checkout and Admin panel require authentication
+- **Session Management**: Spring Security session handling
 
-👨‍💼 Admin Features
-✅ Dashboard with statistics (revenue, orders, users)
+## 📊 Database Schema
 
-✅ Add new products
+| Table | Description |
+|-------|-------------|
+| users | User details (id, name, email, password, role) |
+| products | Product catalog (id, name, price, stock, category) |
+| orders | Order details (id, user_id, total, status, address) |
+| order_items | Order items mapping (order_id, product_id, quantity) |
 
-✅ Edit existing products
+## 🚧 Future Scope (Level 4)
 
-✅ Delete products
+| Level | Features |
+|-------|----------|
+| Level 4 | Live Order Tracking, Sales Analytics |
 
-✅ View all orders
+## 👨‍💻 Author
 
-✅ Update order status (Pending → Shipped → Delivered)
+**Avinash Tiwari**
 
-🔒 Security Implementation
-Password Encryption: BCrypt hashing (not stored as plain text)
+- BCA Final Year
+- ID: 310-5158 | Batch: B2 | Roll No: C13
 
-Role-Based Access: USER and ADMIN roles
+## 📅 Project Timeline
 
-Protected Routes: Checkout and Admin panel require authentication
+| Level | Date | Status |
+|-------|------|--------|
+| Level 1 (PPT) | 20-21 May 2026 | ✅ Completed |
+| Level 2 (Live Demo) | 5-6 June 2026 | ✅ Completed |
+| Level 3 (Improvements) | 25-28 June 2026 | ✅ Completed |
+| Level 4 (Final Report) | 6-7 July 2026 | ⏳ Pending |
 
-Session Management: Spring Security session handling
+## 🙏 Acknowledgments
 
-📊 Database Schema
-Table	Description
-users	User details (id, name, email, password, role)
-products	Product catalog (id, name, price, stock, category)
-orders	Order details (id, user_id, total, status, address)
-order_items	Order items mapping (order_id, product_id, quantity)
-🚧 Future Scope (Level 4)
-Level	Features
-Level 4	Live Order Tracking, Sales Analytics
-👨‍💻 Author
-Avinash Tiwari
-
-BCA Final Year
-
-ID: 310-5158 | Batch: B2 | Roll No: C13
-
-📅 Project Timeline
-Level	Date	Status
-Level 1 (PPT)	20-21 May 2026	✅ Completed
-Level 2 (Live Demo)	5-6 June 2026	✅ Completed
-Level 3 (Improvements)	25-28 June 2026	✅ Completed
-Level 4 (Final Report)	6-7 July 2026	⏳ Pending
-🙏 Acknowledgments
-Spring Boot Documentation
-
-Thymeleaf Reference Guide
-
-Bootstrap 5
-
-Unsplash for images
+- Spring Boot Documentation
+- Thymeleaf Reference Guide
+- Bootstrap 5
+- Unsplash for images
 
 ## 📞 Contact
 
 For any queries: **support@shopease.com**
 
 ⭐ **If you found this project helpful, please give it a star!**
+
