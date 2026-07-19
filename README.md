@@ -98,15 +98,17 @@ Role	Email	Password
 Admin	admin@shopease.com	admin123
 Demo User	avinashtiwari@gmail.com	avinash123
 
-📱 Application Screenshots
-Page	             Description
-/	                 Home page with featured products
-/products/shop	   Product listing with filters
-/cart	             Shopping cart management
-/orders/my-orders	 Order history
-/admin/dashboard	 Admin analytics dashboard
-/admin/products	   Product management CRUD
-/admin/orders	     Order status management
+## 📱 Application Screenshots
+
+| Page | Screenshot |
+|------|------------|
+| Home Page | ![Home](screenshots/home.png) |
+| Shop Page | ![Shop](screenshots/shop.png) |
+| Cart Page | ![Cart](screenshots/cart.png) |
+| My Orders | ![My Orders](screenshots/my-orders.png) |
+| Admin Dashboard | ![Admin Dashboard](screenshots/admin-dashboard.png) |
+| Admin Products | ![Admin Products](screenshots/admin-products.png) |
+| Admin Orders | ![Admin Orders](screenshots/admin-orders.png) |
 
 🎯 Features Demonstrated
 👤 User Features
@@ -149,10 +151,9 @@ users	User details (id, name, email, password, role)
 products	Product catalog (id, name, price, stock, category)
 orders	Order details (id, user_id, total, status, address)
 order_items	Order items mapping (order_id, product_id, quantity)
-🚧 Future Scope (Level 3 & 4)
+🚧 Future Scope (Level 4)
 Level	Features
-Level 3	Payment Gateway (Razorpay), Wishlist, Email Notifications
-Level 4	Live Order Tracking, Sales Analytics, Mobile App
+Level 4	Live Order Tracking, Sales Analytics
 👨‍💻 Author
 Avinash Tiwari
 
